@@ -62,7 +62,7 @@ impl Default for DepotDownloaderSettings {
 }
 
 fn write_changes_to_file(changes: &Changes) -> std::io::Result<()> {
-    let download_files = changes.added.join("\n") + &changes.modified.join("\n");
+    let download_files = changes.added.join("\n") + "\n" + &changes.modified.join("\n");
     // Write changes to file files.txt
     let path = "files.txt";
     std::fs::write(path, download_files)?;
