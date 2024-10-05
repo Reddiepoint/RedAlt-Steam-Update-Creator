@@ -1,7 +1,3 @@
-# Homepage
-
-https://cs.rin.ru/forum/viewtopic.php?f=14&t=138413
-
 # Documentation
 
 https://reddiepoint.github.io/RedAlt-SteamUp-Documentation/
